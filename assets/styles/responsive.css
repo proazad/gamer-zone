@@ -1,0 +1,37 @@
+/* Mobile / Small Device Responsive Styles  */
+@media screen and (max-width:576px) {
+    .navbar {
+        width: var(--width-mobile);
+    }
+
+    .navbar,
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+
+}
+
+
+/* Table / Medium Device Responsive Styles  */
+@media screen and (min-width:577px) and (max-width:768px) {
+    .navbar {
+        width: var(--width-table);
+        padding: 10px 20px;
+    }
+
+    .nav-logo img {
+        max-width: 50px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .nav-logo .site-title {
+        font-size: 35px;
+        font-weight: 700;
+    }
+}

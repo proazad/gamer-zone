@@ -3,7 +3,9 @@
 
 /* Variables  */
 :root {
-    --width: 85vw;
+    --width-large: 85vw;
+    --width-mobile: 100vw;
+    --width-tablet: calc(100vw - 5vw)
     --primary-color: #000000;
     --secondary-color: #534C64;
     --third-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -25,7 +27,7 @@
 }
 
 .navbar {
-    width: var(--width);
+    width: var(--width-large);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -51,10 +53,12 @@
 .nav-logo .site-title::first-letter {
     color: #FF42A5;
 }
-.site-title a{
+
+.site-title a {
     text-decoration: none;
     color: var(--primary-color);
 }
+
 .navbar-nav {
     display: flex;
 }
@@ -69,16 +73,27 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-.fa-youtube, .fa-tiktok{
-margin-left: 15px;
-font-size: 20px;
+
+.nav-item:hover,
+.nav-item:visited {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
 }
-.fa-youtube{
+
+.fa-youtube,
+.fa-tiktok {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.fa-youtube {
     color: red;
 }
-.fa-tiktok{
+
+.fa-tiktok {
     color: #00f2ea;
 }
+
 .nav-item:first-child {
     margin-left: 0px;
 }
