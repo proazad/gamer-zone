@@ -1,3 +1,6 @@
+/* Work Sans Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
 /* Variables  */
 :root {
     --width: 85vw;
@@ -12,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Header Area Styles Start Here  */
@@ -26,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 .nav-logo {
@@ -34,8 +38,8 @@
 }
 
 .nav-logo img {
-    width: 90px;
-    height: 40px;
+    max-width: 90px;
+    height: auto;
     margin-right: 10px;
 }
 
@@ -43,8 +47,13 @@
     font-size: 45px;
     font-weight: 700;
 }
-.nav-logo site-title::first-letter{
-    color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+.nav-logo .site-title::first-letter {
+    color: #FF42A5;
+}
+.site-title a{
+    text-decoration: none;
+    color: var(--primary-color);
 }
 .navbar-nav {
     display: flex;
@@ -53,8 +62,23 @@
 .nav-item {
     list-style: none;
     margin-left: 20px;
+    padding: 15px;
 }
 
+.nav-item:last-child {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.fa-youtube, .fa-tiktok{
+margin-left: 15px;
+font-size: 20px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-tiktok{
+    color: #00f2ea;
+}
 .nav-item:first-child {
     margin-left: 0px;
 }
