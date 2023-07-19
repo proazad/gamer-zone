@@ -54,15 +54,42 @@
     .quote {
         font-size: 20px;
     }
+
     .video-games {
         grid-template-columns: 1fr;
     }
+
     .games-video-title {
         font-size: 25px;
     }
+
     .video-caption {
         font-size: 16px;
         text-align: center;
+    }
+
+    .video {
+        margin-bottom: 20px;
+    }
+
+    .instant-play {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .instant-play-content {
+        width: auto;
+        text-align: center;
+    }
+
+    .instant-play-image img {
+        padding: 0px 20px;
+    }
+
+    .instant-play-image img:last-child {
+        left: -37px;
+        bottom: -35px;
+        width: 170px;
     }
 }
 
@@ -88,15 +115,19 @@
     .banner-container {
         background: none
     }
+
     .banner-content {
         margin-bottom: 20px;
     }
+
     .banner-inner {
         flex-direction: column-reverse;
     }
+
     .gamer-container {
         grid-template-columns: 1fr;
     }
+
     .gamer-content,
     .gamer-title,
     .gamer-descrip {
@@ -110,10 +141,32 @@
     .video-games {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .games-video-title {
         font-size: 40px;
     }
-    .video{
+
+    .video {
         margin-bottom: 20px;
+    }
+
+    .instant-play {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .instant-play-content {
+        width: auto;
+        text-align: center;
+    }
+   
+    .instant-play-image img {
+        padding: 0px 20px;
+    }
+
+    .instant-play-image img:last-child {
+        left: -37px;
+        bottom: -35px;
+        width: 170px;
     }
 }
