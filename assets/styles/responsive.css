@@ -138,6 +138,21 @@
         font-size: 16px;
         line-height: 28px;
     }
+
+    .ordinary {
+        text-align: center;
+    }
+
+    .category-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .category span {
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+
 }
 
 
@@ -250,10 +265,11 @@
         line-height: 22px;
     }
 
-   .career-content {
-    padding: 50px 0px;
-    margin-bottom: 50px;
-}
+    .career-content {
+        padding: 50px 0px;
+        margin-bottom: 50px;
+    }
+
     .positions {
         margin-bottom: 20px;
     }
@@ -262,5 +278,15 @@
     .place p {
         font-size: 16px;
         line-height: 28px;
+    }
+
+    .category-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .category span {
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 5px;
     }
 }

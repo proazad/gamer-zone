@@ -541,23 +541,24 @@
 /* Game Categroy Area Styles  */
 .game-category {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px 0px;
 }
 
 .category-container {
     width: var(--width-large);
     margin: 0 auto;
-    display: flex;
-    padding: 50px 0px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    place-items: center;
+    gap: 10px;
+    place-items: center;
 }
 
 .category {
+    align-self: center;
     background-color: #fff;
     border-radius: 40px;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     align-items: center;
     transition: all .35s ease;
@@ -566,9 +567,9 @@
 
 .category span {
     color: #0B0223;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin-left: 10px;
+    margin-left: 5px;
     transition: all .35s ease;
 }
 
