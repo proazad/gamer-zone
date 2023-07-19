@@ -420,7 +420,7 @@ header .nav-item:last-child {
     position: absolute;
     left: -70px;
     bottom: -50px;
-    width: 250px;
+    width: 230px;
 }
 
 /* Online Play Game Area Styles  */
@@ -476,7 +476,7 @@ header .nav-item:last-child {
     position: absolute;
     right: -70px;
     bottom: -50px;
-    width: 200px;
+    width: 230px;
 }
 
 /* Career Section styles */
