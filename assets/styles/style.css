@@ -27,9 +27,22 @@
     text-decoration: none;
     color: #fff;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    transition: background .35s ease;
+    transition: all .35s ease;
 }
 
+.btn-ordinary {
+    padding: 10px 25px;
+    border-radius: 48px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FF42A5;
+    background-color: #fff;
+    transition: all .35s ease;
+}
+.btn-ordinary:hover{
+    background-color: #dbcece;
+}
 .btn-secondary {
     padding: 10px 25px;
     border-radius: 48px;
@@ -417,9 +430,12 @@
     align-items: center;
     gap: 150px;
 }
-.online-play-content, .online-play-image{
-    flex:1;
+
+.online-play-content,
+.online-play-image {
+    flex: 1;
 }
+
 .online-play-content .inner {
     width: 450px;
     text-align: left;
@@ -432,7 +448,7 @@
 }
 
 
-.online-play-title span{
+.online-play-title span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -459,4 +475,63 @@
     right: -70px;
     bottom: -50px;
     width: 200px;
+}
+
+/* Career Section styles */
+.career-container {
+    background-image: url("../images/vactor.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    background-color: #FF42A5;
+    padding: 50px 0px;
+}
+
+.career-inner {
+    display: flex;
+    width: var(--width-large);
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.career-content,
+.career-img {
+    flex: 1;
+}
+
+.career-img img {
+    max-width: 100%;
+}
+
+.career-sec-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.career-description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.career-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.positions,
+.place p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.place p {
+    text-align: right;
 }
