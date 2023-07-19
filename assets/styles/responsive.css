@@ -54,6 +54,16 @@
     .quote {
         font-size: 20px;
     }
+    .video-games {
+        grid-template-columns: 1fr;
+    }
+    .games-video-title {
+        font-size: 25px;
+    }
+    .video-caption {
+        font-size: 16px;
+        text-align: center;
+    }
 }
 
 
@@ -95,5 +105,15 @@
 
     .quote {
         font-size: 20px;
+    }
+
+    .video-games {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .games-video-title {
+        font-size: 40px;
+    }
+    .video{
+        margin-bottom: 20px;
     }
 }
