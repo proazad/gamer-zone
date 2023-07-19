@@ -407,3 +407,56 @@
     bottom: -50px;
     width: 250px;
 }
+
+/* Online Play Game Area Styles  */
+.online-play {
+    width: var(--width-large);
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+.online-play-content, .online-play-image{
+    flex:1;
+}
+.online-play-content .inner {
+    width: 450px;
+    text-align: left;
+    /* padding: 0px 50px; */
+}
+
+.online-play-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+.online-play-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-play-description {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.online-play-image {
+    position: relative;
+}
+
+.online-play-image img {
+    max-width: 100%;
+}
+
+.online-play-image img:last-child {
+    position: absolute;
+    right: -70px;
+    bottom: -50px;
+    width: 200px;
+}

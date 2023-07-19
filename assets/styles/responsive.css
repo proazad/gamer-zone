@@ -91,6 +91,24 @@
         bottom: -35px;
         width: 170px;
     }
+
+    .online-play {
+        flex-direction: column-reverse;
+        gap:60px;
+    }
+
+    .online-play-content .inner {
+        width: auto;
+        text-align: center;
+    }
+    .online-play-image img:first-child {
+        padding:0px 30px;
+    }
+    .online-play-image img:last-child {
+        right: -8px;
+        bottom: -29px;
+        width: 150px;
+    }
 }
 
 
@@ -159,7 +177,7 @@
         width: auto;
         text-align: center;
     }
-   
+
     .instant-play-image img {
         padding: 0px 20px;
     }
@@ -168,5 +186,22 @@
         left: -37px;
         bottom: -35px;
         width: 170px;
+    }
+    .online-play {
+        flex-direction: column-reverse;
+        gap:60px;
+    }
+
+    .online-play-content .inner {
+        width: auto;
+        text-align: center;
+    }
+    .online-play-image img:first-child {
+        padding:0px 30px;
+    }
+    .online-play-image img:last-child {
+        right: -8px;
+        bottom: -29px;
+        width: 150px;
     }
 }
