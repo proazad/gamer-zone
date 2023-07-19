@@ -94,20 +94,49 @@
 
     .online-play {
         flex-direction: column-reverse;
-        gap:60px;
+        gap: 60px;
     }
 
     .online-play-content .inner {
         width: auto;
         text-align: center;
     }
+
     .online-play-image img:first-child {
-        padding:0px 30px;
+        padding: 0px 30px;
     }
+
     .online-play-image img:last-child {
         right: -8px;
         bottom: -29px;
         width: 150px;
+    }
+
+    .career-inner {
+        flex-direction: column;
+    }
+
+    .career-sec-title {
+        font-size: 38px;
+    }
+
+    .career-description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .career-content {
+        padding: 30px 0px;
+    }
+
+    .positions {
+        margin-bottom: 20px;
+    }
+
+    .positions,
+    .place p {
+        font-size: 16px;
+        line-height: 28px;
     }
 }
 
@@ -187,21 +216,51 @@
         bottom: -35px;
         width: 170px;
     }
+
     .online-play {
         flex-direction: column-reverse;
-        gap:60px;
+        gap: 60px;
     }
 
     .online-play-content .inner {
         width: auto;
         text-align: center;
     }
+
     .online-play-image img:first-child {
-        padding:0px 30px;
+        padding: 0px 30px;
     }
+
     .online-play-image img:last-child {
         right: -8px;
         bottom: -29px;
         width: 150px;
+    }
+
+    .career-inner {
+        flex-direction: column;
+    }
+
+    .career-sec-title {
+        font-size: 38px;
+    }
+
+    .career-description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .career-content {
+        padding: 50px 0px;
+    }
+
+    .positions {
+        margin-bottom: 20px;
+    }
+
+    .positions,
+    .place p {
+        font-size: 16px;
+        line-height: 28px;
     }
 }
