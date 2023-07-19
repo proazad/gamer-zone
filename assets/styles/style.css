@@ -469,7 +469,7 @@ header .nav-item:last-child {
 }
 
 .online-play-image img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .online-play-image img:last-child {
@@ -551,7 +551,6 @@ header .nav-item:last-child {
     grid-template-columns: repeat(5, auto);
     place-items: center;
     gap: 10px;
-    place-items: center;
 }
 
 .category {

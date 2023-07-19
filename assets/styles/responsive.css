@@ -245,14 +245,14 @@
         text-align: center;
     }
 
-    .instant-play-image img {
-        padding: 0px 20px;
+    .instant-play-image img:first-child {
+        padding: 0px 50px;
     }
 
     .instant-play-image img:last-child {
         left: -37px;
-        bottom: -35px;
-        width: 170px;
+        bottom: -60px;
+        width: 243px;
     }
 
     .online-play {
@@ -266,13 +266,13 @@
     }
 
     .online-play-image img:first-child {
-        padding: 0px 30px;
+        padding: 0px 50px;
     }
 
     .online-play-image img:last-child {
         right: -8px;
-        bottom: -29px;
-        width: 150px;
+        bottom: -52px;
+        width: 240px;
     }
 
     .career-inner {
@@ -281,6 +281,7 @@
 
     .career-sec-title {
         font-size: 38px;
+        margin-bottom: 20px;
     }
 
     .career-description {
