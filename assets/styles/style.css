@@ -40,9 +40,11 @@
     background-color: #fff;
     transition: all .35s ease;
 }
-.btn-ordinary:hover{
+
+.btn-ordinary:hover {
     background-color: #dbcece;
 }
+
 .btn-secondary {
     padding: 10px 25px;
     border-radius: 48px;
@@ -534,4 +536,57 @@
 
 .place p {
     text-align: right;
+}
+
+/* Game Categroy Area Styles  */
+.game-category {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.category-container {
+    width: var(--width-large);
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.category {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: all .35s ease;
+    border: 1px solid transparent;
+}
+
+.category span {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: all .35s ease;
+}
+
+.arcade {
+    border: 1px solid #dd388d;
+}
+
+.arcade span {
+    color: #dd388d;
+}
+
+.category:hover{
+    border: 1px solid #dd388d;
+}
+.category:hover span{
+    color: #dd388d;
+
+}
+.category img {
+    width: 30px;
 }
