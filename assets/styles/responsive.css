@@ -5,7 +5,8 @@
     }
 
     .navbar,
-    .navbar-nav {
+    .navbar-nav,
+    .banner-inner {
         flex-direction: column;
     }
 
@@ -13,7 +14,32 @@
         text-align: center;
     }
 
+    .banner-container {
+        background-position: bottom left;
+    }
 
+    .banner-inner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner-title span {
+        font-size: 60px;
+    }
+
+    .banner-instruction-point {
+        font-size: 18px;
+
+    }
+
+    .banner-btn {
+        margin-top: 30px;
+        text-align: center;
+    }
 }
 
 
@@ -33,5 +59,11 @@
     .nav-logo .site-title {
         font-size: 35px;
         font-weight: 700;
+    }
+    .banner-container {
+        background:none
+    }
+    .banner-inner {
+        flex-direction: column-reverse;
     }
 }

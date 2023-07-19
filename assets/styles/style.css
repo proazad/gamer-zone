@@ -140,7 +140,6 @@
     background-size:contain;
     margin-bottom: 0;
     padding-bottom: 0px;
-    border-bottom: 1px solid;
 }
 
 .banner-inner {
@@ -149,6 +148,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 70px;
 }
 
 .banner-content,
