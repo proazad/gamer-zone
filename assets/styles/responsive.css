@@ -112,6 +112,14 @@
         width: 150px;
     }
 
+    .online-play-title {
+        margin-bottom: 15px;
+    }
+
+    .online-play-description {
+        line-height: 20px;
+    }
+
     .career-inner {
         flex-direction: column;
     }
@@ -144,7 +152,17 @@
     }
 
     .category-container {
-        grid-template-columns: repeat(2, auto);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+    }
+
+    .category {
+        padding: 5px;
+    }
+
+    .category img {
+        width: 20px;
     }
 
     .category span {
@@ -156,7 +174,11 @@
     footer .navbar-nav {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        grid-gap: 0px 5px;
+    }
+
+    footer .nav-logo {
+        margin-bottom: 18px;
     }
 
     footer .nav-item {
@@ -171,10 +193,15 @@
         grid-template-columns: repeat(2, 1fr);
         margin: 30px auto;
     }
+
     .footer-social {
         grid-template-columns: repeat(3, 1fr);
         width: 229px;
         text-align: center;
+        gap: 10px;
+    }
+    .footer-credit span{
+        display: block;
     }
 }
 
@@ -305,6 +332,7 @@
     }
 
     .category-container {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
